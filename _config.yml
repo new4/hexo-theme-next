@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "new4, blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -97,7 +97,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
+  # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
   commonweal: /404/ || heartbeat
 
@@ -140,7 +140,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Blog rolls
@@ -183,15 +183,15 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   display: post
-  #display: always
-  #display: hide
-  #display: remove
+  # display: always
+  # display: hide
+  # display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
   scrollpercent: false
@@ -205,7 +205,7 @@ sidebar:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically saving scroll position on each post/page in cookies.
 save_scroll: false
@@ -628,7 +628,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
+  style: flat
   icons: false
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
@@ -669,7 +669,7 @@ motion:
     post_body: slideDownIn
     coll_header: slideLeftIn
     # Only for Pisces | Gemini.
-    sidebar: slideUpIn
+    sidebar: flipBounceYIn
 
 # Fancybox
 fancybox: true
